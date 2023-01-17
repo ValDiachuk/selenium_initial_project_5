@@ -15,7 +15,7 @@ public class TestCase1 {
 
         driver.get("https://automationexercise.com/");
 
-        WebElement logo =  driver.findElement(By.cssSelector("img[src='/static/images/home/logo.png']"));
+        WebElement logo =  driver.findElement(By.cssSelector(".logo img"));
 
        if(logo.isDisplayed()) System.out.println("Logo PASSED");
        else System.out.println("Logo FAILED");
